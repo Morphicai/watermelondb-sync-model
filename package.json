@@ -1,18 +1,12 @@
 {
   "name": "watermelondb-sync-model",
   "version": "1.0.0",
-  "description": "A bidirectional synchronization library for WatermelonDB with Supabase backend support",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
-  ],
+  "description": "A bidirectional synchronization solution for WatermelonDB with Supabase backend support. Copy this code into your project.",
+  "private": true,
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'Add your linter here'",
+    "test": "echo 'Add your tests here'"
   },
   "keywords": [
     "watermelondb",
@@ -39,8 +33,6 @@
     "@supabase/supabase-js": ">=2.0.0"
   },
   "devDependencies": {
-    "@nozbe/watermelondb": "^0.27.0",
-    "@supabase/supabase-js": "^2.39.0",
     "@types/node": "^20.0.0",
     "typescript": "^5.3.0"
   },
