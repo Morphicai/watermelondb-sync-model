@@ -1,0 +1,50 @@
+{
+  "name": "watermelondb-sync-model",
+  "version": "1.0.0",
+  "description": "A bidirectional synchronization library for WatermelonDB with Supabase backend support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watermelondb",
+    "supabase",
+    "sync",
+    "synchronization",
+    "database",
+    "react-native",
+    "offline-first",
+    "local-first"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/watermelondb-sync-model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/watermelondb-sync-model/issues"
+  },
+  "homepage": "https://github.com/yourusername/watermelondb-sync-model#readme",
+  "peerDependencies": {
+    "@nozbe/watermelondb": ">=0.27.0",
+    "@supabase/supabase-js": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@nozbe/watermelondb": "^0.27.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
